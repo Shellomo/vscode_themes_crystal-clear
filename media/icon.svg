@@ -1,0 +1,11 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Crystal -->
+  <path d="M64 8L8 48L64 88L120 48L64 8Z" fill="#1a1b26" stroke="#7aa2f7" stroke-width="2"/>
+  <!-- Middle Crystal Layer -->
+  <path d="M64 88L8 48L8 88L64 128L120 88L120 48L64 88Z" fill="#161721" stroke="#7aa2f7" stroke-width="2"/>
+  <!-- Shine Effects -->
+  <path d="M64 8L90 24L64 40L38 24L64 8Z" fill="#bb9af7" opacity="0.3"/>
+  <path d="M32 48L64 64L96 48L64 32L32 48Z" fill="#7aa2f7" opacity="0.2"/>
+  <!-- Central Sparkle -->
+  <circle cx="64" cy="48" r="4" fill="#ffffff"/>
+</svg>

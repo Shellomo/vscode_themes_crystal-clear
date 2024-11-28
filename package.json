@@ -1,0 +1,56 @@
+{
+  "name": "crystal-clear-theme",
+  "displayName": "Crystal Clear Theme",
+  "description": "A modern, eye-catching theme optimized for long coding sessions",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Crystal Clear",
+        "uiTheme": "vs-dark",
+        "path": "./themes/crystal-clear-color-theme.json"
+      }
+    ]
+  },
+  "publisher": "Shellomo",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shellomo/vscode_themes_crystal-clear"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "crystal",
+    "modern",
+    "clear"
+  ],
+  "galleryBanner": {
+    "color": "#1a1b26",
+    "theme": "dark"
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.60.0",
+    "@types/node": "^16.x.x",
+    "typescript": "^4.x.x"
+  },
+  "dependencies": {
+    "@vscode/extension-telemetry": "^0.9.8"
+  }
+}
